@@ -6,11 +6,11 @@
 
 ## Architecture
 
-- `Package.swift` — Swift package manifest. Executable target (`Oxford`) and library target (`DictionaryKit`) with swift-argument-parser and Rainbow dependencies.
+- `Package.swift` — Swift package manifest. Executable target (`Oxford`) and library target (`OxfordKit`) with swift-argument-parser and Rainbow dependencies.
 - `Sources/Oxford/OxfordCommand.swift` — Entry point. Contains the `OxfordCommand` (swift-argument-parser) which routes to dictionary or thesaurus output.
-- `Sources/Oxford/Formatter.swift` — Output formatting with ANSI styling via Rainbow.
-- `Sources/DictionaryKit/DictionaryService.swift` — Low-level DictionaryServices API bindings. Looks up words in the Oxford dictionary and thesaurus.
-- `Tests/DictionaryKitTests/` — Tests for the lookup functions.
+- `Sources/OxfordKit/Formatter.swift` — Output formatting with ANSI styling via Rainbow.
+- `Sources/OxfordKit/DictionaryService.swift` — Low-level DictionaryServices API bindings. Looks up words in the Oxford dictionary and thesaurus.
+- `Tests/OxfordTests/` — Tests for `OutputFormatter` (definition/thesaurus formatting, text wrapping, edge cases).
 
 ## Key technical details
 
