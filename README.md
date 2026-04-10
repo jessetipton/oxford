@@ -1,4 +1,4 @@
-# oxford
+# 📖 Oxford
 
 [![CI](https://github.com/jessetipton/oxford/actions/workflows/ci.yml/badge.svg)](https://github.com/jessetipton/oxford/actions/workflows/ci.yml)
 ![Swift 6](https://img.shields.io/badge/Swift-6-orange)
